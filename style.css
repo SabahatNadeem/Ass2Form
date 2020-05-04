@@ -1,0 +1,61 @@
+
+
+#image 
+{
+  margin-left: 20%;
+  width: 500px;
+  height: 200px;
+  margin-top: -40px;
+}
+h2{
+    color: purple;
+    word-spacing: 1px;
+    text-decoration: underline;
+    margin-left: 25%;
+    margin-top: -60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.box
+{
+    background-color: rgb(165, 11, 165);
+    padding: 20px;
+    margin: 15%;
+    margin-top: 3px;
+
+}
+button
+{
+    margin-left: 40%; 
+    font-size: large;
+     color: black;
+      background-color: silver;
+       border-radius: 5px;
+}
+input{
+    font-size: 120%;
+color: #5a5854;
+background-color:white;
+border: 1px solid #bdbdbd;
+border-radius: 0px;
+padding-left: 8px;
+opacity:initial;
+}
+label.al{
+    color: white;
+    padding-right: 50px;
+    width: 140px;
+    display: inline-block;
+}
+label.alw{
+    color: white;
+    padding-right: 50px;
+}
+
+tr
+{
+color:white;
+}
+input.qua
+{
+    width: 150px;
+};

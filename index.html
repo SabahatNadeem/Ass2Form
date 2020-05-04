@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form | Saylani</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+     <img id="image" src="saylani-welfare.jpg" alt="Saylani Welfare Trust" /> 
+     <h2> STUDENT REGISTRATION FORM  </h2>
+
+                                 <!-- Form Begins-->
+     <form onsubmit="window.open('submit.html', '_blank', 'scrollbars=yes,menubar=yes,resizable=yes,toolbar=yes,status=yes');return true;"> 
+    <div class="box">
+        <div>
+<label class="al"> FIRST NAME</label>
+ <input  type="text" placeholder="Enter first name" maxlength="30" required/> <label class="alw">(max 30 characters a-z and A-Z)</label>
+        </div>
+<br>
+    <div>
+        <label class="al"> LAST NAME</label>
+         <input  type="text" placeholder="Enter last name" maxlength="30" required/> <label class="alw">(max 30 characters a-z and A-Z)</label>
+    </div>
+<br>
+<div>
+    <label class="al">DATE OF BIRTH</label>
+     <input  type="date" required/> 
+</div>
+<br>
+<div>
+    <label class="al"> EMAIL ID</label>
+     <input  type="email" placeholder="Enter email address" maxlength="30" required/> 
+</div>
+<br>
+<div>
+    <label class="al"> MOBILE NUMBER </label>
+     <input  type="tel" placeholder="Enter mobile number" maxlength="11" required/> <label class="alw">(11 digit number)</label>
+</div>
+<br>
+<div>
+    <label class="al"> GENDER </label>
+    <label style="padding-right: 0px;color: white; display: inline-block;">Male</label><input type="radio" name="gender" value="Male"/>
+    <label style="padding-right: 0px; color: white;">Female</label><input type="radio" name="gender" value="Female"/>
+
+</div>
+<br>
+<div>
+    <label class="al"> ADDRESS</label>
+  <textarea  style="display: inline-block;"rows="5" cols="50" required></textarea>
+</div>
+<br>
+<div>
+    <label class="al"> CITY</label>
+    <input  type="text" placeholder="Enter city name" maxlength="30" required/> <label class="alw">(max 30 characters a-z and A-Z)</label>
+ 
+</div>
+<br>
+<div>
+    <label class="al"> PIN CODE</label>
+    <input type="text" placeholder="Enter pin code" maxlength="6" required/> <label class="alw">(6 digit number)</label>
+ 
+</div>
+<br>
+<div>
+    <label class="al"> STATE</label>
+    <input type="text" placeholder="Enter state" maxlength="30" required/> <label class="alw">(max 30 characters a-z and A-Z)</label>
+ 
+</div>
+<br>
+<div>
+    <label class="al">COUNTRY</label>
+    <input  type="text" placeholder="Enter country" required/>
+</div>
+<div>
+    <br>
+<label class="al">HOBBIES</label>
+<label class="alw" style="padding:0px; ">Drawing</label> <input type="checkbox" name="hobby" value="Drawing">
+<label  class="alw" style="padding:0px;">Singing </label> <input type="checkbox" name="hobby" value="Singing">
+<label  class="alw" style="padding:0px;">Sketching</label> <input type="checkbox" name="hobby" value="Sketching">
+<label  class="alw" style="padding:0px;">Dancing</label> <input type="checkbox" name="hobby" value="Dancing"><br>
+<label  class="alw" style="margin-left:22%;padding-right: 0px;">Others</label> <input class="al" type="checkbox" name="hobby" value="Others"><input type="text" />
+</div>
+<br>
+<div>
+    <label class="al">QUALIFICATION</label>
+  <table style="margin-left: 22%;  margin-top:-20px;">
+      <tr >
+          <TH> SNo</TH>
+          <th>Examination</th>
+          <TH> Board</TH>
+          <TH>Percentage</TH>
+          <TH>Year of Passing</TH>
+      </tr>
+<tr>
+    <td>1</td>
+    <td>Class X</td>
+    <td><input type="text" maxlength="10" class="qua"  /></td>
+
+    <td><input type="text"  class="qua"/></td>
+    <td><input type="text" class="qua"/></td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Class XII</td>
+    <td><input type="text" maxlength="10" class="qua"  /></td>
+
+    <td><input type="text" class="qua"/></td>
+    <td><input type="text" class="qua"/></td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Graduation</td>
+    <td><input type="text" maxlength="10" class="qua"  /></td>
+
+    <td><input type="text" class="qua"/></td>
+    <td><input type="text" class="qua"/></td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Masters</td>
+    <td><input type="text" maxlength="10" class="qua"  /></td>
+
+    <td><input type="text" class="qua"/></td>
+    <td><input type="text" class="qua"/></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td><label style="margin-left: 40px;">(10 char max)</label></td>
+
+    <td><label style="margin-left: 20px;">(Upto 2 decimal)</label></td>
+    <td><label ></label></td>
+    
+</tr>
+</table>
+</div>
+<br>
+<div>
+    <label class="al">COURSES <BR> APPLIED FOR </label>
+       <label class="alw" style="padding: 0px;">BCA</label> <input type="radio" name="edu" value="BCA">
+       <label  class="alw" style="padding: 0px;">B.Com</label> <input type="radio" name="edu" value="B.Com">
+       <label class="alw" style="padding: 0px;">B.Sc</label> <input type="radio" name="edu" value="B.Sc">
+       <label class="alw" style="padding: 0px;">B.A</label> <input type="radio" name="edu" value="B.A">
+</div>
+<br>
+<button  type="submit" value="submit" >Submit</button>
+<button style="margin-left: 0%;" type="reset" value="submit">Reset</button>
+</div>
+</form>
+ <!-- Form Closed-->
+</body>
+</html>
